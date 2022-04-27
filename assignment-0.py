@@ -26,11 +26,11 @@ def three_number_average(x, y, z):
         the average of x, y, and z
     '''
     # Write your code below this line
-x = int (input(" Enter the First Number: "))
+x = float (input(" Enter the First Number: "))
 
-y = int (input(" Enter the second number: "))
+y = float (input(" Enter the second number: "))
 
-z = int (input(" Enter the third number: "))
+z = float (input(" Enter the third number: "))
 
 average=(x+y+z)/3
 
